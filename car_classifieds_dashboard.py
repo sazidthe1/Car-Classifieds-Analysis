@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 # Load the cleaned dataset
-data = pd.read_csv('/workspaces/Car-Classifieds-Analysis/car_cleaned_data.csv')
+data = pd.read_csv(r'car_cleaned_data.csv')
 
 # Set up the page title
 st.title("🚘 Car Classifieds Dashboard: Explore Trends & Insights 📈")
